@@ -1,0 +1,146 @@
+Greedy agent, with center initialization
+
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -o GREEDY -r 50
+Running 100 games:
+-+++++--+++-+++++-++-+-++-+-+++-+++++-++++-++++-+++-+++++++++-+++++++++++++-++-+++++++---++-++++++++++
+Your agent won 79.0% of matches against Greedy Agent
+
+
+
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -o GREEDY -r 50
+Running 100 games:
+++++++++++-+++++++++---+++++++-+++++++++--++++-+-++-+++++++++++++++++-++++++++++-++++++++++++++++++--
+Your agent won 86.0% of matches against Greedy Agent
+
+
+
+
+
+
+
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -o MINIMAX -r 50
+Running 100 games:
++-+-+---++-++++--+-++-+-+------+-+------++++----+--+--++----++----+-+------++--+-+-++-+-+-++++-++---
+Your agent won 42.0% of matches against Minimax Agent
+
+
+Process finished with exit code 0
+
+
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -o MINIMAX -r 50
+Running 100 games:
++-+++------++-++-+++---+++--+++++++++++-+--++---++-+-+-++-+----+-+-+-+---+----+---++---+-+--++-+-++-
+Your agent won 50.0% of matches against Minimax Agent
+
+
+
+
+
+=========================================== iterative deepening with depth (2..5) =================
+(with heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 100
+Running 200 games:
+--+-+++++++++++++++++-+-+++++-+-++-++--+++--++-+-+++--+-+++-+++-+++++++-+++++++++++++---+-++-++-++++++++++-+++++++---++-+-+++--++-+++++++-++++-++-++++--+++-+-+++-++++++-+--+-+-+++-+++--+-++++++-++++++
+Running 200 games:
+++---+++-++++++-++++-+++++++-+--+++++++-++++-+++--+++++-+++-+++++-+++-+--+-+--++++-+-++-+++++++-+++++++-+++-++++--+-+----++--++++++----++-+++-+--++--+++++--+--+++-+-+++++++++-++--++++++++-+++-+-+--+-+
+Your agent won 71.2% of matches against Minimax Agent
+
+(no heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 100
+Running 200 games:
++++-+--+-+++--++-+----++++++-+-++-++-+-+-+-++++--+-+++++-+--+++-++-+-+++---++-++++-+-----+-+--++-+-+-+++++-+-++-+++--+-++---+-+-+---+++-++++-+++++-++--+-+---++++++-+-++-+--+--+++++-+-+++--++++++-+-+-+
+Running 200 games:
++-++-+-+++--+++--+-++++-+++++-++-++++++++---++++--+-+--++++--+++--++++++-++-++++-+-+++++--+++-++++-+++------+++++-++-+++++--+++++++-+-+++++++---++-+----+-++-++--++-++++++-+++--++++++--++++++-+++-----++-
+Your agent won 63.2% of matches against Minimax Agent
+
+
+
+
+
+
+
+
+
+
+
+
+=======================
+with depth 2
+(with heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 20
+Running 40 games:
++---+++-----------------+-+--------+---+
+Running 40 games:
+++++----+---+-----++-----+---+-------+--+
+Your agent won 23.8% of matches against Minimax Agent
+
+
+(without heuristic)
+Running 40 games:
+---------+----+--------++-+-+-+-+--+-++-
+Running 40 games:
++----++-+------+-----+-++---+------+--+-
+Your agent won 27.5% of matches against Minimax Agent
+
+=============================
+
+with depth 3
+(with heuristic)
+
+
+Running 20 games:
++---+--------++------
+Running 20 games:
+-+++--+---+-+-+-++--
+Your agent won 30.0% of matches against Minimax Agent
+
+
+(without heuristic)
+
+Running 20 games:
+-+----+-+-++-++-+---
+Running 20 games:
+++------+++----+-++-
+Your agent won 40.0% of matches against Minimax Agent
+
+
+
+
+
+
+with depth 5
+
+(with heuristic)
+Running 40 games:
+++++-+++-++++++++-+-++++-++--++-+-+++-++
+Running 40 games:
+-+--+++++++++-++-++-+-+++--+++-+++++-+++-
+Your agent won 72.5% of matches against Minimax Agent
+
+(without heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 20
+Running 40 games:
++-+---++-++++++-+++++++-+++---+--+++++++
+Running 40 games:
++++++-+-++-+++---+-+--++-----+-+-+++++--+
+Your agent won 62.5% of matches against Minimax Agent
+
+
+
+(with heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 10
+Running 20 games:
+++--++++-++--+-+++++
+Running 20 games:
+--++++++++-+-+++-++++
+Your agent won 75.0% of matches against Minimax Agent
+
+
+(without heuristic)
+/Users/minse_chang/.conda/envs/aind/bin/python "/Users/minse_chang/aind/artificial-intelligence/Projects/3_Adversarial Search/run_match.py" -f -o MINIMAX -r 10
+Running 20 games:
++++++--++++-+-+-++-+
+Running 20 games:
++-+-++++++-+----++-+
+Your agent won 65.0% of matches against Minimax Agent
+
